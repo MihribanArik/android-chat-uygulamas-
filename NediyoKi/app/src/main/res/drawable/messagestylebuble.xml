@@ -1,0 +1,25 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Baloncuk -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/primary" /> <!-- Baloncuk rengi -->
+            <corners android:radius="10dp" /> <!-- Köşe yuvarlatma miktarı -->
+        </shape>
+    </item>
+    <!-- Ok -->
+    <item
+        android:left="80dp"
+        android:top="-10dp"
+        android:right="-10dp"
+        android:bottom="-10dp">
+        <rotate
+            android:fromDegrees="-45"
+            android:pivotX="-10%"
+            android:pivotY="10%">
+            <shape android:shape="rectangle">
+                <solid android:color="@color/primary" /> <!-- Ok rengi (aynı baloncuk rengi) -->
+                <corners android:radius="2dp" /> <!-- Köşe yuvarlatma miktarı -->
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

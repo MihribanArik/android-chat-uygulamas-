@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">NediyoKi</string>
+    <string name="logintext">Giriş Yap</string>
+    <string name="notaccount">Hesabım Yok</string>
+    <string name="nediyo_ki">Nediyo Ki</string>
+    <string name="ya_da">ya da</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

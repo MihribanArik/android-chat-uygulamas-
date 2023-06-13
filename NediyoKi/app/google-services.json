@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "463603024557",
+    "project_id": "nediyoki-b8291",
+    "storage_bucket": "nediyoki-b8291.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463603024557:android:ccc341e00231f0776ebc24",
+        "android_client_info": {
+          "package_name": "com.proje.nediyoki"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463603024557-43592tgrcm32qfibq94v6997agrbqc2g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6p7f7HyjR_y1VDreXd2unCJnUP9XXj9Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463603024557-43592tgrcm32qfibq94v6997agrbqc2g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

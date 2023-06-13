@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <include layout="@layout/actionbar_app"
+        android:id="@+id/actionbarRegister"></include>
+
+    <TextView
+        android:id="@+id/txtInfo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kayıt Ol"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/actionbarRegister"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txtInfo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtInfo1"
+        android:layout_marginTop="15dp"
+        android:text="Kullanıcı Adı"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        />
+    <EditText
+        android:id="@+id/tbxUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtInfo2"
+        android:hint="example"
+        android:padding="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        />
+    <TextView
+        android:id="@+id/txtInfo3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tbxUserName"
+        android:layout_marginTop="5dp"
+        android:text="E-Mail"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        />
+    <EditText
+        android:id="@+id/tbxEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtInfo3"
+        android:hint="example@gmail.com"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        />
+    <TextView
+        android:id="@+id/txtInfo4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Şifre"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/tbxEmail"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        />
+    <EditText
+        android:id="@+id/tbxPassword"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtInfo4"
+        android:hint="Password"
+        android:padding="15dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        />
+    <TextView
+        android:id="@+id/txtInfo5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Şifre Yeniden"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/tbxPassword"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        />
+    <EditText
+        android:id="@+id/tbxPasswordConfirm"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtInfo5"
+        android:hint="Password"
+        android:padding="15dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kayıt Ol"
+        android:layout_below="@id/tbxPasswordConfirm"
+        android:layout_alignEnd="@id/tbxPasswordConfirm"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:textColor="@color/white"
+        />
+
+</RelativeLayout>
